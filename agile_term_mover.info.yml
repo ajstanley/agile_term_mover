@@ -1,0 +1,5 @@
+name: 'Agile Term Mover'
+type: module
+description: 'Moves terms from one vocabulary to another'
+core: 8.x
+package: 'agile'

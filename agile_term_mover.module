@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains agile_term_mover.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function agile_term_mover_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the agile_term_mover module.
+    case 'help.page.agile_term_mover':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Moves terms from one vocabulary to another') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,7 @@
+agile_term_mover.move_term:
+  path: '/agile_term_mover/form/move_term'
+  defaults:
+    _form: '\Drupal\agile_term_mover\Form\MoveTerm'
+    _title: 'MoveTerm'
+  requirements:
+    _access: 'TRUE'
